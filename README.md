@@ -1,5 +1,8 @@
 # wea\
-Random random = new Random();
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Random random = new Random();
         Scanner scan = new Scanner(System.in);
         
         int arithmetic = 4;//random.nextInt(4)+1;
@@ -44,3 +47,5 @@ Random random = new Random();
                  System.out.println("Wrong! The answer is " + div);
             }
         }
+    }
+}
